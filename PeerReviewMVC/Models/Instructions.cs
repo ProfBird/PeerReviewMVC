@@ -3,10 +3,11 @@ using System.Collections.Generic;
 
 namespace PeerReviewMVC.Models
 {
-    public class Instructions
+    public class Assignment
     {
         private List<Submission> submissions = new List<Submission>();
 
+        public int AssignmentId { get; set; }
         public List<Submission> Submissions { get { return submissions; } }
         public Rubric EvalGuide { get; set; }
         public String Title { get; set; }  // Name of the assignment

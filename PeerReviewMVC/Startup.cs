@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PeerReviewMVC.Data;
 
+
 namespace PeerReviewMVC
 {
     public class Startup
@@ -38,6 +39,7 @@ namespace PeerReviewMVC
 
             services.AddDbContext<PeerReviewContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("PeerReviewContext")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
