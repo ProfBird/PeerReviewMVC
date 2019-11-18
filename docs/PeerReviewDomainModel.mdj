@@ -61,9 +61,9 @@
 											"font": "Arial;13;1",
 											"left": 101,
 											"top": 175,
-											"width": 74.39453125,
+											"width": 74.40087890625,
 											"height": 13,
-											"text": "Instructions"
+											"text": "Assignment"
 										},
 										{
 											"_type": "LabelView",
@@ -96,7 +96,7 @@
 									"font": "Arial;13;0",
 									"left": 96,
 									"top": 168,
-									"width": 84.39453125,
+									"width": 84.40087890625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFt7G8cj1CxLBE="
@@ -123,7 +123,7 @@
 									"font": "Arial;13;0",
 									"left": 96,
 									"top": 193,
-									"width": 84.39453125,
+									"width": 84.40087890625,
 									"height": 10
 								},
 								{
@@ -138,7 +138,7 @@
 									"font": "Arial;13;0",
 									"left": 96,
 									"top": 203,
-									"width": 84.39453125,
+									"width": 84.40087890625,
 									"height": 10
 								},
 								{
@@ -178,7 +178,7 @@
 							"containerChangeable": true,
 							"left": 96,
 							"top": 168,
-							"width": 84.39453125,
+							"width": 84.40087890625,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAFt7G8cj1CwAEo="
@@ -3167,7 +3167,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Instructions",
+					"name": "Assignment",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
